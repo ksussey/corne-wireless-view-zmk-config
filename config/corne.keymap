@@ -29,7 +29,7 @@
                 lower_layer {
 // -----------------------------------------------------------------------------------------
 // |  TAB |     |     |     |     |     |   |  7  |  8  |  9  |   .   |       |  BKSP  |
-// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  4  |  5  |  6  |       |  UP   |        |
+// | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   |  4  |  5  |  6  |   .   |  UP   |        |
 // | SHFT |     |     |     |     |     |   |  1  |  2  |  3  |  LFT  |  DWN  |   RGT  |
 //                    | GUI |     | SPC |   | ENT |  0  | ALT |
                         display-name = "Lower";
