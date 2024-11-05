@@ -87,10 +87,10 @@
 
         isaac {
             bindings = <
-&kp ESC  &trans  &kp W   &trans        &trans  &trans       &trans     &trans  &trans  &trans          &trans          &trans
-&trans   &kp A   &kp S   &kp D         &trans  &trans       &trans     &trans  &trans  &trans          &kp UP_ARROW    &trans
-&trans   &trans  &trans  &trans        &trans  &trans       &trans     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                         &kp LEFT_GUI  &trans  &kp ENTER    &kp SPACE  &trans  &trans
+&kp ESC    &kp Q   &kp W   &kp E         &kp R   &kp TAB      &trans     &trans  &trans  &trans          &trans          &trans
+&kp LSHFT  &kp A   &kp S   &kp D         &kp F   &trans       &trans     &trans  &trans  &trans          &kp UP_ARROW    &trans
+&kp LCTRL  &trans  &trans  &trans        &trans  &kp M        &trans     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                           &kp LEFT_GUI  &trans  &kp ENTER    &kp SPACE  &trans  &trans
             >;
 
             label = "Isaac";
