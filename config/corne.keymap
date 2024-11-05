@@ -16,6 +16,11 @@
             bindings = <&mo 3>;
             key-positions = <37 38>;
         };
+
+        isaac {
+            bindings = <&tog 4>;
+            key-positions = <37 40>;
+        };
     };
 
     keymap {
@@ -78,6 +83,17 @@
             >;
 
             label = "BT";
+        };
+
+        isaac {
+            bindings = <
+&kp ESC  &trans  &kp W   &trans        &trans  &trans       &trans     &trans  &trans  &trans          &trans          &trans
+&trans   &kp A   &kp S   &kp D         &trans  &trans       &trans     &trans  &trans  &trans          &kp UP_ARROW    &trans
+&trans   &trans  &trans  &trans        &trans  &trans       &trans     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                         &kp LEFT_GUI  &trans  &kp ENTER    &kp SPACE  &trans  &trans
+            >;
+
+            label = "Isaac";
         };
     };
 };
