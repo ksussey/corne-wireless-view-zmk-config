@@ -44,7 +44,7 @@
             // | CTRL |       |     |     |     |     |   |  1  |  2  |  3  |  LFT | DWN | RGT  |
             //                    | GUI |     | SPC |   | ENT |  0  | ALT |
 
-            display-name = "Lower";
+            display-name = "Hell";
             bindings = <
 &kp TAB    &kp F9  &kp F10  &kp F11   &kp F12  &trans     &kp N7     &kp N8  &kp N9   &kp FSLH   &kp MINUS  &kp BSPC
 &kp LSHFT  &kp F5  &kp F6   &kp F7    &kp F8   &none      &kp N4     &kp N5  &kp N6   &kp EQUAL  &kp UP     &trans
@@ -60,7 +60,7 @@
             // | CTRL |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "Heaven";
             bindings = <
 &kp TAB    &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp BSPC
 &kp LSHFT  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT         &kp RBKT  &kp BSLH  &kp GRAVE
@@ -76,6 +76,8 @@
 &trans      &trans        &trans        &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                         &trans        &trans        &trans          &trans  &trans  &trans
             >;
+
+            label = "BT";
         };
     };
 };
