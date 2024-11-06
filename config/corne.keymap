@@ -12,11 +12,6 @@
     combos {
         compatible = "zmk,combos";
 
-        bt {
-            bindings = <&mo 0>;
-            key-positions = <37 38>;
-        };
-
         isaac {
             bindings = <&tog 3>;
             key-positions = <37 40>;
@@ -38,7 +33,7 @@
 &kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
 &kp LSHFT  &kp A  &kp S  &kp D     &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
-                         &kp LGUI  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp ENTER
+                         &kp LGUI  &mo 1  &kp ENTER    &kp SPACE  &mo 2  &kp RALT
             >;
         };
 
@@ -74,15 +69,15 @@
             >;
         };
 
-        isaac {
+        Gaming {
             bindings = <
-&kp ESC    &kp Q   &kp W   &kp E         &kp R   &kp TAB      &trans     &trans  &trans  &trans          &trans          &trans
-&kp LSHFT  &kp A   &kp S   &kp D         &kp F   &trans       &trans     &trans  &trans  &trans          &kp UP_ARROW    &trans
-&kp LCTRL  &trans  &trans  &trans        &trans  &kp M        &trans     &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                           &kp LEFT_GUI  &trans  &kp SPACE    &kp ENTER  &trans  &trans
+&kp ESC    &kp Q  &kp W  &kp E     &kp R    &kp T        &kp Y      &kp U      &kp I     &kp O           &kp P           &kp BSPC
+&kp LSHFT  &kp A  &kp S  &kp D     &kp F    &kp G        &kp H      &kp J      &kp K     &kp L           &kp UP_ARROW    &kp TAB
+&kp LCTRL  &kp Z  &kp X  &kp C     &kp V    &kp B        &kp N      &kp M      &kp DOT   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
+                         &kp LGUI  &kp TAB  &kp SPACE    &kp SPACE  &kp ENTER  &kp RALT
             >;
 
-            label = "Isaac";
+            label = "Gamer";
         };
     };
 };
